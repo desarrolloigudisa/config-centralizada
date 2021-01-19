@@ -4,6 +4,6 @@ server:
 uri:
   es-intentoslogin: http://localhost:7001
   es-usuario: http://localhost:7002
-  valoresconfigurables-es: http://localhost:7000
+  es-valoresconfigurables: http://localhost:7000
   
   
