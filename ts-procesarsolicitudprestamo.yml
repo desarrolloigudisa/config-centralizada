@@ -1,5 +1,5 @@
 server:
-  port: 8208
+  port: 8210
   
 uri:
     es-empleado: http://localhost:8072
