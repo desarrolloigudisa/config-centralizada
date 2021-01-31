@@ -1,9 +1,6 @@
 server:
-  port: 8075
-springdoc:
-  packages-to-scan: com.righttek.es.plantillanotificacion.controller
-  pathsToMatch: /v1, /api/es/plantillaNotificacion/**
-
+  port: 9090
+  
 # CONECCION A BASE DE DATOS
 spring:
   datasource:
