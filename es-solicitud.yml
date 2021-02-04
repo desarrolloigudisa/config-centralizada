@@ -8,7 +8,7 @@ spring:
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
-# Hibernate ddl auto (create, create-drop, validate, update)
+## Hibernate ddl auto (create, create-drop, validate, update)
   jpa:
     hibernate:
       ddl-auto: update
