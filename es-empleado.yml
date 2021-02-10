@@ -4,7 +4,7 @@ server:
 # CONECCION A BASE DE DATOS
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/GOTALENT
+    url: jdbc:postgresql://localhost:5432/prueba1
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
