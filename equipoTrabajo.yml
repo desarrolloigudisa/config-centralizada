@@ -1,0 +1,15 @@
+servidor:
+  puerto: 7342
+
+primavera:
+  fuente de datos:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://127.0.0.1:5432/gotest
+    nombre de usuario: postgres
+    contraseña: root
+  jpa:
+    hibernar:
+      ddl-auto: actualización
+    show-sql: verdadero
+    base de datos: postgresql
+    plataforma de base de datos: org.hibernate.dialect.PostgreSQLDialect
