@@ -1,15 +1,19 @@
-servidor:
-  puerto: 7372
-
-primavera:
-  fuente de datos:
+server:
+  port: 8252
+  
+# CONECCION A BASE DE DATOS
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/GOTALENT
+    username: postgres
+    password: root
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://127.0.0.1:5432/gotest
-    nombre de usuario: postgres
-    contraseña: root
+## Hibernate ddl auto (create, create-drop, validate, update)
   jpa:
-    hibernar:
-      ddl-auto: actualización
-    show-sql: verdadero
-    base de datos: postgresql
-    plataforma de base de datos: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      jdbc:
+        lob:
+          non_contextual_creation: true
