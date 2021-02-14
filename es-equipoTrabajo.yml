@@ -1,5 +1,5 @@
 servidor:
-  puerto: 7342
+  puerto: 7372
 
 primavera:
   fuente de datos:
