@@ -12,4 +12,4 @@ spring:
 uri:
   nomina-externa: "http://localhost:8082"
   esfuerzo-laboral: "http://localhost:8073"
-  marcacion: "http://localhost:8071"
+  marcacion: "http://localhost:8066"
