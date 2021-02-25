@@ -1,0 +1,9 @@
+server:
+  port: 8032
+PARAMETRO:
+  SFTPHOST : "localhost"
+  SFTPPASS : "FJherrera$2018"
+  SFTPPORT : "22"
+  SFTPUSER : "fherrera"
+
+
