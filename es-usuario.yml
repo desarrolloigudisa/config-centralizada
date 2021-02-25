@@ -5,7 +5,7 @@ server:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/gotest
-    username: postgres
+    username: root
     password: root
     driver-class-name: org.postgresql.Driver
 # Hibernate ddl auto (create, create-drop, validate, update)
