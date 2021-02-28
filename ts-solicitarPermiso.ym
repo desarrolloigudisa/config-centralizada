@@ -1,0 +1,14 @@
+server:
+  port: 8091
+
+# OpenAPI 
+springdoc:
+  packages-to-scan: com.righttek.ts.solicitarpermiso.controller
+  
+# SERVICIOS A CONSUMIR
+uri:
+  empleado: "http://localhost:8072"
+  solicitud: "http://localhost:8054"
+  valoresConfigurables: "http://localhost:8043"
+  plantillaNotificacion: "http://localhost:8079"
+  solicitudLegado: "http://localhost:8085"
