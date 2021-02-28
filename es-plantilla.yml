@@ -1,5 +1,5 @@
 server:
-  port: 8075
+  port: 8079
 springdoc:
   packages-to-scan: com.righttek.es.plantillanotificacion.controller
   pathsToMatch: /v1, /api/es/plantillaNotificacion/**
