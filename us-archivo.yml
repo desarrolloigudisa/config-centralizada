@@ -2,7 +2,7 @@ server:
   port: 8032
 PARAMETRO:
   SFTPHOST : "localhost"
-  SFTPPASS : "CJVALLEJO.$2020"
+  SFTPPASS : "CJvallejo.$2020"
   SFTPPORT : "22"
   SFTPUSER : "jvallejo"
 
