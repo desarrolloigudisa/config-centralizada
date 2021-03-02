@@ -1,10 +1,10 @@
 server:
-  port: 8059
-  
+  port: 8063
+
 # CONECCION A BASE DE DATOS
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/gotest
+    url: jdbc:postgresql://localhost:5431/gotest
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
@@ -12,7 +12,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql: false
     properties:
       jdbc:
         lob:
