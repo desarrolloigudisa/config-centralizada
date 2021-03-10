@@ -1,5 +1,5 @@
 server:
-  port: 2222
+  port: 4545
 
 uri:
    es-pago: "http://localhost:8078"
