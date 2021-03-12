@@ -1,5 +1,5 @@
 server:
-  port: 8087
+  port: 8101
 spring:
   jackson:
     date-format: com.righttek.ms.activarsubscripcion.RFC3339DateFormat
@@ -7,14 +7,15 @@ spring:
       WRITE_DATES_AS_TIMESTAMPS: false
 # SERVICIOS A CONSUMIR
 uri:
-  ActualizarSubscripcionComercial: localhost:8080
-  ConsultarCaracteristicasPorPlanComercial: localhost:8080
-  ConsultarEmpresaPorId: localhost:8080
-  ConsultarPagoPorOrden: localhost:8080
-  ConsultarPlantillasNotificacionPorNombre: localhost:8080
-  ConsultarSubscripcionComercialPorId: localhost:8080
-  ConsultarUsuarioPorEmail: localhost:8080
-  ConsultarValores: localhost:8080
-  CrearCaracteristicasSubscripcion: localhost:8080
-  CrearParametrosEmpresa: localhost:8080
-  EnviarCorreo: localhost:8080
+  ActualizarSubscripcionComercial: "http://localhost:8054"
+  ConsultarCaracteristicasPorPlanComercial: "http://localhost:8075"
+  ConsultarEmpresaPorId: "http://localhost:8076"
+  ConsultarPagoPorOrden: "http://localhost:8078"
+  ConsultarPlantillasNotificacionPorNombre: "http://localhost:8079"
+  ConsultarSubscripcionComercialPorId: "http://localhost:8054"
+  ConsultarUsuarioPorEmail: "http://localhost:8055"
+  ConsultarValores: "http://localhost:8051"
+  CrearCaracteristicasSubscripcion: "http://localhost:8050"
+  CrearParametrosEmpresa: "http://localhost:8051"
+  EnviarCorreo: "http://localhost:8056"
+
