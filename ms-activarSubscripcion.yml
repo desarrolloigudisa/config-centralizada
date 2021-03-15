@@ -20,4 +20,5 @@ uri:
   CaracteristicaSistemaPerfilES:"http://localhost:8067"
   ModuloES:"http://localhost:8069"
   PerfilES:"http://localhost:8066"
+  RolES:"/api/es/rol/v1"
   EnviarCorreo: "http://localhost:8056"
