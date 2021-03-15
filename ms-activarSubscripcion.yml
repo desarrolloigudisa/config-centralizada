@@ -18,4 +18,5 @@ uri:
   CrearCaracteristicasSubscripcion: "http://localhost:8050"
   CrearParametrosEmpresa: "http://localhost:8051"
   ModuloES:"http://localhost:8069"
+  PerfilES:"http://localhost:8066"
   EnviarCorreo: "http://localhost:8056"
