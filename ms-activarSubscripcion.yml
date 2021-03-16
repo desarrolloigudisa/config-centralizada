@@ -21,4 +21,5 @@ uri:
   ModuloES:"http://localhost:8069"
   PerfilES:"http://localhost:8066"
   RolES:"http://localhost:8063"
+  UsuarioES:"http://localhost:8055"
   EnviarCorreo: "http://localhost:8056"
