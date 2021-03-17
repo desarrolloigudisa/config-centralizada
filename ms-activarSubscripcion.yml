@@ -7,7 +7,7 @@ spring:
       WRITE_DATES_AS_TIMESTAMPS: false
 # SERVICIOS A CONSUMIR
 uri:
-  ActualizarSubscripcionComercial: "http://localhost:8054"
+  SubscripcionComercialES: "http://localhost:8054"
   ConsultarCaracteristicasPorPlanComercial: "http://localhost:8075"
   ConsultarEmpresaPorId: "http://localhost:8076"
   ConsultarPagoPorOrden: "http://localhost:8078"
