@@ -15,7 +15,7 @@ uri:
   usuarioEs: "http://localhost:8055"
   valoresConfigurables: "http://localhost:8051"
   caracteristicasSubscripcionEs: "http://localhost:8050"
-  EnviarCorreoUS: "http://localhost:8056"
+  EnviarCorreoUS: "http://localhost:8083"
   planComercialES: "http://localhost:8075"
   CaracteristicaSistemaPerfilES: "http://localhost:8067"
   ModuloES: "http://localhost:8069"
