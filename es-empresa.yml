@@ -20,6 +20,6 @@ spring:
       jdbc:
         lob:
           non_contextual_creation: true
-  uri:
+# SERVICIOS A CONSUMIR
+uri:
   nomina-externa: "http://localhost:8082"
-
