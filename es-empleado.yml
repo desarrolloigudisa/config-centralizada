@@ -4,7 +4,7 @@ server:
 # CONECCION A BASE DE DATOS
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/gotest
+    url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
@@ -12,7 +12,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
+    show-sql: false
     properties:
       jdbc:
         lob:
@@ -21,4 +21,5 @@ spring:
 # SERVICIOS A CONSUMIR
 uri:
   nomina-externa: "http://localhost:8082"
+  usuario: "http://localhost:8055"
 
