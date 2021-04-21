@@ -11,10 +11,9 @@ springfox:
   documentation:
     open-api:
       v3:
-        path: /api-docs
-        
+        path: /api-docs    
+            
 # CONECCION A BASE DE DATOS
-spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/evaluacion
     username: postgres
