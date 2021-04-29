@@ -1,5 +1,5 @@
 server:
-  port: 0001
+  port: 1452
   
 # CONECCION A BASE DE DATOS
 spring:
