@@ -4,7 +4,7 @@ server:
     contextPath: /
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/evaluacion
+    url: jdbc:postgresql://localhost:5432/testing
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
