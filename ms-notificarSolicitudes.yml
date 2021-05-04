@@ -2,6 +2,7 @@ server:
   port: 8110
 
 uri:
+  es-consultasEmpleado: "http://localhost:8002"
   es-valoresconfigurable: "http://localhost:8051"
   es-solicitudes: "http://localhost:8052"
   es-empleado: "http://localhost:8072"  
