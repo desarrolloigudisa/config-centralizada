@@ -5,7 +5,7 @@ spring:
   mail:
     default-encoding: UTF-8
     host: smtp.gmail.com
-    password: hxkeomdwuoggxzue
+    password: kwophnjdbmabrxhe
     port: 587
     properties:
        mail:
@@ -17,4 +17,5 @@ spring:
             required: true
           timeout: 5000
           writetimeout: 5000
-    username: angelica.macias.sa91@gmail.com
+    username: gotalentpruebas@gmail.com
+          
