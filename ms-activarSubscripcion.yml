@@ -22,4 +22,4 @@ uri:
   PerfilES: "http://localhost:8066"
   RolES: "http://localhost:8063"
   UsuarioES: "http://localhost:8055"
-  horarioEmpleadoES:"http://localhost:8056"
+  horarioEmpleadoES: "http://localhost:8056"
