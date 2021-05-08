@@ -7,7 +7,7 @@ springdoc:
 # CONECCION A BASE DE DATOS
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/gotest
+    url: jdbc:postgresql://localhost:5432/utiltest
     username: postgres
     password: root
     driver-class-name: org.postgresql.Driver
