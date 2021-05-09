@@ -20,3 +20,6 @@ spring:
       jdbc:
         lob:
           non_contextual_creation: true
+# SERVICIOS A CONSUMIR
+uri:
+ precioES: 'http://localhost:8003'
