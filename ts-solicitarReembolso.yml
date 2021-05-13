@@ -7,6 +7,6 @@ uri:
   parametros: "http://localhost:8051"
   empleadolegado: "http://localhost:8072"
   sreembolso: "http://localhost:8006"
-  srlegado: "http://localhost:8085"
+  solicitudlegado: "http://localhost:8085"
   ecorreo: "http://localhost:8083"
   archivo: "http://localhost:8081"
