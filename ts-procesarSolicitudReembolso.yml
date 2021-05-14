@@ -9,3 +9,4 @@ uri:
   sreembolso: "http://localhost:8006"
 #  srlegado: "http://localhost:8062"
   ecorreo: "http://localhost:8083"
+  solicitudlegado: "http://localhost:8085"
