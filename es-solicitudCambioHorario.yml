@@ -22,3 +22,8 @@ spring:
     consumer:
       group-id: myGroup
 
+# TOPICO DE MENSAJERIA
+topic:
+   name: "TopicbitacoraSolicitud" 
+          
+
