@@ -21,7 +21,7 @@ spring:
   kafka:
     bootstrap-servers: 10.35.2.65:9092
     consumer:
-      group-id: test-consumer-group
+      group-id: myGroup
 
 # TOPICO DE MENSAJERIA
 topic:
