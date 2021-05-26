@@ -20,7 +20,7 @@ spring:
         lob:
           non_contextual_creation: true
 
-  # ESPECIFICACIONES DE KAFKA
+  # ESPECIFICACIONES DE KAFKA 
   kafka:
     bootstrap-servers: 10.35.2.65:9092
     consumer:
