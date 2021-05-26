@@ -2,8 +2,8 @@ server:
   port: 8091
 
   # ESPECIFICACIONES DE KAFKA
-  kafka:
-    bootstrap-servers: 10.35.2.65:9092
+ kafka:
+   bootstrap-servers: 10.35.2.65:9092
     consumer:
       group-id: myGroup
 
