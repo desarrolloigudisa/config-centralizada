@@ -18,7 +18,7 @@ spring:
         lob:
 # ESPECIFICACIONES DE KAFKA
   kafka:
-    bootstrap-servers: 10.35.2.65:9092
+    bootstrap-servers: 10.35.2.65:9093
     consumer:
       group-id: myGroup
 
