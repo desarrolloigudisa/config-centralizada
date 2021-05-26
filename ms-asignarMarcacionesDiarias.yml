@@ -10,6 +10,6 @@ spring:
 
 # SERVICIOS A CONSUMIR
 uri:
-  empleado: "http://localhost:8072"
+  empleado: "http://localhost:8072" 
   horario: "http://localhost:8074"
   marcacion: "http://localhost:8071"
