@@ -8,6 +8,7 @@ spring:
     consumer:
       group-id: myGroup
 
+
 # SERVICIOS A CONSUMIR
 uri:
   nomina-externa: "http://localhost:8082"
