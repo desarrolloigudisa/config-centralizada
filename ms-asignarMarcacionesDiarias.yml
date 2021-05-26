@@ -1,12 +1,12 @@
 server:
   port: 8091
 
-# ESPECIFICACIONES DE KAFKA
-spring:
+  # ESPECIFICACIONES DE KAFKA
   kafka:
     bootstrap-servers: 10.35.2.65:9092
     consumer:
       group-id: myGroup
+
 
 # SERVICIOS A CONSUMIR (COMPOSICION)
 uri:
