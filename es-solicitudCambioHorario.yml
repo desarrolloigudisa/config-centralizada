@@ -20,7 +20,7 @@ spring:
   kafka:
     bootstrap-servers: 10.35.2.65:9092
     consumer:
-      group-id: serviciosSolicitudes
+      group-id: myGroup
 # TOPICO DE MENSAJERIA
 topic:
    name: "TopicbitacoraSolicitud" 
