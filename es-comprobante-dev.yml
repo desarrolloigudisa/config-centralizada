@@ -2,11 +2,11 @@ server:
   port: 8005
 spring:
   application:
-    name: comprobantees
+    name: es-comprobante
   datasource:
-    url: jdbc:postgresql://10.35.3.251:5432/facturacion_dev
-    username: postgres
-    password: postgres
+    url: ${SPRING_DATASOURCE_URL}
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
@@ -25,7 +25,7 @@ logging:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: ${DEFAULT_ZONE_EUREKA}
     fetchRegistry: true
     healthcheck:
       enabled: true
