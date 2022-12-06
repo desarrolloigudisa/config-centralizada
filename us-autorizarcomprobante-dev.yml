@@ -2,4 +2,4 @@ server:
   port: 8200
 spring:
   application:
-    name: es-autorizarcomprobante
+    name: us-autorizarcomprobante
