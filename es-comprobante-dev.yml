@@ -22,13 +22,3 @@ spring:
 logging:
   pattern:
     console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://10.35.2.46:7777/eureka
-    fetchRegistry: true
-    healthcheck:
-      enabled: true
-  instance:
-    preferIpAddress: true
-    leaseRenewalIntervalInSeconds: 10
